@@ -1,0 +1,39 @@
+/*Mauricio Procel
+CS 248 
+Project 4: Fifteen Puzzle
+CSS file to make a grid that the tiles are going to be displayed on and 
+to style the page.
+*/
+title{
+	font-family: Candara, Corbel, monospace;
+}
+body, title{
+	font-family: serif;
+	font-size: 14pt;
+	text-align: center;
+	width: 60%;
+	margin: 0 auto;
+}
+#puzzlearea{
+	display: grid;
+	grid-template-columns: repeat(4, 100px);
+	grid-template-rows: repeat(4, 100px);
+	width: 400px;
+	border: 5px solid black;
+	margin: 0 auto;
+}
+
+.tile {
+	width: 90px;
+	height: 90px;
+	border: 5px solid black;
+	font-size: 40pt;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#empty{
+	background-color: white;
+}
+
+
