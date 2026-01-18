@@ -1,4 +1,4 @@
-/*Mauricio Procel
+/*Mauricio Procel 
 CS 248 
 Project 4: Fifteen Puzzle
 A puzzle game with 15 tiles, each display a section of an image. The goal is to move the tiles
@@ -149,4 +149,5 @@ until to get the tiles in the correct order with the background image matching.
 
         [tiles[index1], tiles[index2]] = [tiles[index2], tiles[index1]];
 	}
+
 })();
